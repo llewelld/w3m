@@ -8,6 +8,7 @@ License:        MIT
 BuildRequires:  pkgconfig(ncurses)
 BuildRequires:  pkgconfig(readline)
 BuildRequires:  pkgconfig(bdw-gc)
+BuildRequires:  pkgconfig(openssl)
 #BuildRequires:  libgc
 BuildRequires:  autoconf
 
