@@ -3,7 +3,7 @@ Version:        0.5.3
 Release:        1
 Summary:        A pager with WWW capability
 Url:            https://sourceforge.net/projects/w3m/
-Source:         https://github.com/tats/w3m/
+Source0:        %{name}-%{version}.tar.bz2
 License:        MIT
 BuildRequires:  pkgconfig(ncurses)
 BuildRequires:  pkgconfig(readline)
