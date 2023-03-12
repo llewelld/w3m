@@ -7,9 +7,10 @@ Source:         https://github.com/tats/w3m/
 License:        MIT
 BuildRequires:  pkgconfig(ncurses)
 BuildRequires:  pkgconfig(readline)
+# gdw-gc (libgc) is not in the jolla repositories
+# See the README.md file for how to build and use it here
 BuildRequires:  pkgconfig(bdw-gc)
 BuildRequires:  pkgconfig(openssl)
-#BuildRequires:  libgc
 BuildRequires:  autoconf
 
 %description
